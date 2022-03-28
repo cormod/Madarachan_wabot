@@ -72,10 +72,10 @@ npm update
 
 ## من اجل WINDOWS/VPS/RDP USER
 
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
+* تحميل Git [`اضغط هنا`](https://git-scm.com/downloads)
+* تحميل NodeJS [`اضغط هنا`](https://nodejs.org/en/download)
+* تحميل FFmpeg [`اضغط هنا`](https://ffmpeg.org/download.html) (**لاتنسى إضافة ffmpeg**)
+* تحميل ImageMagick [`اضغط هنا`](https://imagemagick.org/script/download.php)
 
 ```bash
 git clone https://github.com/BochilGaming/games-wabot
@@ -85,11 +85,11 @@ npm update
 ```
 
 #### تحميل FFmpeg
-* Download one of the FFmpeg versions [here](https://ffmpeg.org/download.html).
-* Extract file to `C:\` path.
-* Rename the extracted folder to `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Run the following command:
+َ* تحميل أحد إصدارات فميغ []] (https://ffmpeg.org/download.html).
+* استخراج الملف إلى`C:\ ' المسار.
+* إعادة تسمية المجلد المستخرج إلى 'فميغ'.
+* تشغيل موجه الأوامر كمسؤول.
+* قم بتشغيل الأمر التالي:
 ```cmd
 > setx /m PATH "C:\ffmpeg\bin;%PATH%"
 ```
@@ -99,115 +99,6 @@ npm update
 ```cmd
 > ffmpeg -version
 ```
----------
-
-## تشغيل
-
-```bash
-node .
-```
-
----------
-
-## Arguments `node . [--options] [<session name>]`
-
-### `--self`
-
-Activate self mode (Ignores other)
-
-### `--pconly`
-
-If that chat not from private bot, bot will ignore
-
-### `--gconly`
-
-If that chat not from group, bot will ignore
-
-### `--swonly`
-
-If that chat not from status, bot will ignore
-
-### `--prefix <prefixes>`
-
-* `prefixes` are seperated by each character
-Set prefix
-
-### `--server`
-
-Used for [heroku](https://heroku.com/) or scan through website
-
-### `--big-qr`
-
-If small qr unicode doesn't support
-
-### `--restrict`
-
-Enables restricted plugins (which can lead your number to be **banned** if used too often)
-
-* Group Administration `add, kick`
-
-### `--img`
-
-Enable image inspector through terminal
-
-### `--autoread`
-
-If enabled, all incoming messages will be marked as read
-
-### `--nyimak`
-
-No bot, just print received messages and add users to database
-
-### `--test`
-
-**Development** Testing Mode
-
-### `--trace`
-
-```js
-conn.logger.level = 'trace'
-```
-
-### `--debug`
-
-```js
-conn.logger.level = 'debug'
-```
-
-### `--presence <Presence>`
-
-when the bot executes the command, the bot will type, record, etc.
-
-Presence avaible: available, composing, recording, paused
-
----------
-
-### want to contribute?
-1. fork this repository
-2. Change/edit/create what you want. for example you can add features, fix bug, etc
-3. **test** before making a pull req!!
-4. make a pull req!
-5. if your pull req is already in **acc/merge**, you can delete your branch or you can create pull req again :)
-
----------
-
-### want to use multi-device (md)?
-now games-wabot already support MD, but of course there are still many **bugs** and there are still many that have not been **implemented**,
-
-use this [branch](https://github.com/BochilGaming/games-wabot/tree/multi-device) if you want to use MD!
-
----------
-
-### Thanks To 
-**Allah SWT**,
-
-**Orang Tua**,
-
-**Semua yang selalu mendukung**
-
-[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
-[![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
-
 #### Contributor
 [![idhamthoriqbot](https://github.com/idhamthoriqbot.png?size=100)](https://github.com/idhamthoriqbot)
 [![Adiixyz](https://github.com/Adiixyz.png?size=100)](https://github.com/Adiixyz)
