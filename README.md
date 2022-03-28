@@ -46,7 +46,7 @@ ubuntu
 ```
 ---------
 
-[ INSTALLING REQUIRED PACKAGES ]
+[ تحميل الملفات المهمة ]
 
 ```bash
 ubuntu
@@ -56,7 +56,7 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ INSTALLING NODEJS & GAMES-WABOT ]
+[ تحميل NODEJS & GAMES-WABOT ]
 
 ```bash
 ubuntu
@@ -101,7 +101,7 @@ npm update
 ```
 ---------
 
-## Run
+## تشغيل
 
 ```bash
 node .
