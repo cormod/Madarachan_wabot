@@ -19,7 +19,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BochilGaming/games-wabot)
 
 #### أدوات heruko
-| BuildPack | LINK |
+| الاداة | الموقع |
 |--------|--------|
 | **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
@@ -70,7 +70,7 @@ npm update
 
 ---------
 
-## FOR WINDOWS/VPS/RDP USER
+## من اجل WINDOWS/VPS/RDP USER
 
 * Download And Install Git [`Click Here`](https://git-scm.com/downloads)
 * Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
@@ -84,7 +84,7 @@ npm install
 npm update
 ```
 
-#### Installing the FFmpeg
+#### تحميل FFmpeg
 * Download one of the FFmpeg versions [here](https://ffmpeg.org/download.html).
 * Extract file to `C:\` path.
 * Rename the extracted folder to `ffmpeg`.
@@ -93,10 +93,9 @@ npm update
 ```cmd
 > setx /m PATH "C:\ffmpeg\bin;%PATH%"
 ```
-If successful, it will give you a message like:
+إذا حصلت على رسالة مثل هذه :
 `SUCCESS: specified value was saved`.
-
-* Now that you have FFmpeg installed, verify that it worked by running this command to see the version:
+فقد نجح تحميل الأداة تأكد من خلال هذا الأمر :
 ```cmd
 > ffmpeg -version
 ```
