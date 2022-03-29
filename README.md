@@ -12,7 +12,7 @@
 
 ## انضم للغروب
 [![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GVwpKf83s42D1CnIfDW19G) 
-** و شكرا**
+**و شكرا**
 
 
 #### تطبيق في heroku
@@ -35,7 +35,7 @@ wget -O - https://raw.githubusercontent.com/BochilGaming/games-wabot/main/instal
 
 ## تحميل البوت لمستعملي termux مع UBUNTU
 
-[ تحميل UBUNTU ]
+**[ تحميل UBUNTU ]**
 
 ```bash
 apt update && apt full-upgrade
@@ -46,7 +46,7 @@ ubuntu
 ```
 ---------
 
-[ تحميل الملفات المهمة ]
+**[ تحميل الملفات المهمة ]**
 
 ```bash
 ubuntu
@@ -56,7 +56,7 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ تحميل NODEJS & GAMES-WABOT ]
+**[ تحميل NODEJS & GAMES-WABOT ]**
 
 ```bash
 ubuntu
